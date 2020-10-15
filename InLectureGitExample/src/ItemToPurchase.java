@@ -23,18 +23,4 @@ public class ItemToPurchase {
         this.itemQuantity = itemQuantity;
     } 
     
-    public static void main(String[] args) {
-	
-	Scanner scnr = new Scanner(System.in);
-	System.out.println("Item 1");
-	ItemToPurchase firstItem = new ItemToPurchase();
-	System.out.println("Enter the item name:");
-	firstItem.setItemName(scnr.nextLine());
-	System.out.println("Enter the price:");
-	firstItem.setItemPrice(scnr.nextInt());
-	System.out.println("Enter the item quantity:");
-	firstItem.setItemQuantity(scnr.nextInt());
-	
-    }
-    
 }
