@@ -23,6 +23,8 @@ public class ItemToPurchase {
         this.itemQuantity = itemQuantity;
     } 
     
-    
+    public static void main(String[] args) {
+	
+    }
     
 }
