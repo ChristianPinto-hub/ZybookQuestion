@@ -38,6 +38,8 @@ public static void main(String[] args) {
 	+ ((firstItem.getItemQuantity() * firstItem.getItemPrice())
 	+ (secondItem.getItemQuantity() * secondItem.getItemPrice())));
 	
+	System.out.println("Does this work?");
+	
     }
     
 }
