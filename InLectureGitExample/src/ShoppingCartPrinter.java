@@ -34,9 +34,9 @@ public static void main(String[] args) {
 		+ secondItem.getItemPrice() + " = $" 
 		+ (secondItem.getItemQuantity() * secondItem.getItemPrice()));
 	System.out.println();
-	System.out.println("Total: $" 
-	+ ((firstItem.getItemQuantity() * firstItem.getItemPrice())
-	+ (secondItem.getItemQuantity() * secondItem.getItemPrice())));
+//	System.out.println("Total: $"
+//	+ ((firstItem.getItemQuantity() * firstItem.getItemPrice())
+//	+ (secondItem.getItemQuantity() * secondItem.getItemPrice())));
 	
     }
     
